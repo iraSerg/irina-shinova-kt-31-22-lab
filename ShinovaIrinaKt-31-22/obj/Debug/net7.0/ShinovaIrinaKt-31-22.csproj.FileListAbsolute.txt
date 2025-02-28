@@ -47,3 +47,4 @@ C:\Users\irash\source\repos\irina-shinova-kt-31-22-lab\ShinovaIrinaKt-31-22\obj\
 C:\Users\irash\source\repos\irina-shinova-kt-31-22-lab\ShinovaIrinaKt-31-22\obj\Debug\net7.0\ShinovaIrinaKt-31-22.pdb
 C:\Users\irash\source\repos\irina-shinova-kt-31-22-lab\ShinovaIrinaKt-31-22\obj\Debug\net7.0\ShinovaIrinaKt-31-22.genruntimeconfig.cache
 C:\Users\irash\source\repos\irina-shinova-kt-31-22-lab\ShinovaIrinaKt-31-22\obj\Debug\net7.0\ref\ShinovaIrinaKt-31-22.dll
+C:\Users\irash\source\repos\irina-shinova-kt-31-22-lab\ShinovaIrinaKt-31-22\bin\Debug\net7.0\LinqKit.Core.dll

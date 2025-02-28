@@ -30,9 +30,8 @@ namespace ShinovaIrinaKt_31_22.Database.Configurations
                 .HasComment("Название кафедры");
 
             builder.HasOne(d => d.Head)
-                .WithOne()  
-                .HasForeignKey<Department>(d => d.HeadId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .WithOne()
+                .HasForeignKey<Department>(d => d.HeadId);
 
             builder.Navigation(d => d.Head).AutoInclude(); 
 

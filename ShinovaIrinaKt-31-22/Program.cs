@@ -3,6 +3,7 @@ using NLog;
 using NLog.Web;
 using ShinovaIrinaKt_31_22.Database;
 using Microsoft.EntityFrameworkCore;
+using ShinovaIrinaKt_31_22.ServiceExtensions;
 
 var builder = WebApplication.CreateBuilder(args);
 var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
@@ -16,6 +17,7 @@ try
     builder.Services.AddSwaggerGen();
     builder.Services.AddDbContext<UniversityDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    builder.Services.AddServices();
     var app = builder.Build();
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
@@ -23,7 +25,7 @@ try
         app.UseSwagger();
         app.UseSwaggerUI();
     }
-    app.UseMiddleware<ExceptionHandlerMiddleware>();
+    
     app.UseAuthorization();
 
     app.MapControllers();
