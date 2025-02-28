@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "o7DCFpNkmDAaF1CKClBTvtCY8dLYpv1ALs7rq5XrILfXg19kFQefQnBOGKxHqUT20YvQC6SdXaR8N/5IAdF5lQ==",
+  "dgSpecHash": "TOtCQnMUvko5OvvB6mX9kF/szPerbAtwO/kl9qrcBNF+1kaoCuLew08XGkJpsZf+BK/7i5gXxORgs+vDoy0B2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\irash\\source\\repos\\irina-shinova-kt-31-22-lab\\ShinovaIrinaKt-31-22\\ShinovaIrinaKt-31-22.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\irash\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\irash\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\irash\\.nuget\\packages\\linqkit.core\\1.2.8\\linqkit.core.1.2.8.nupkg.sha512",
     "C:\\Users\\irash\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\irash\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\irash\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
